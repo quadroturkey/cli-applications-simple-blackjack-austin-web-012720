@@ -67,6 +67,6 @@ def runner
   end
   
   end_game(hand)
-  binding.pry
+  #binding.pry
 end
     
