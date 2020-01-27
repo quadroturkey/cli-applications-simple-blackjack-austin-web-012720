@@ -57,11 +57,11 @@ end
 
 def runner
   welcome
-  hand = initial_round
+  init = initial_round
 
   while hand < 22 do
     display_card_total(hand)
-    hit?(hand)
+    hand += hit?(init)
     binding.pry
   end
   
