@@ -57,7 +57,7 @@ end
 
 def runner
   welcome
-  init = initial_round
+  hand = initial_round
 
   while hand < 22 do
     display_card_total(hand)
