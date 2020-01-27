@@ -62,7 +62,7 @@ def runner
   while hand < 22 do
     display_card_total(hand)
     hand += hit?(init)
-    binding.pry
+    #binding.pry
   end
   
   end_game(hand)
